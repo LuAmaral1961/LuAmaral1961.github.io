@@ -86,3 +86,57 @@ footer p {
 nav a:hover, footer a:hover {
     color: rgb(109, 199, 199);
 }
+
+.contato {
+    width: 700px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.formulario {
+    width: 700px;
+    line-height: 100%;
+    padding-left: 80px;
+}
+
+.formulario label {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.formulario input[type = text], textarea {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    width: 80%;
+    background-color:whitesmoke;
+    padding: 10px;
+    color:dimgrey;
+}
+
+.formulario textarea {
+    min-height: 100px;
+}
+
+.formulario input[type = submit] {
+    float:right;
+    color:dimgray;
+}
+
+.mail {
+    width: 700px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.celular {
+    width: 700px;
+    padding-left: 80px;
+    padding-top: 5px;
+}
+
+.endereco {
+    width: 700px;
+    padding-left: 80px;
+    padding-top: 5px;
+}
