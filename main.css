@@ -146,6 +146,20 @@ input.nao_valido, textarea.nao_valido {
     padding-top: 5px;
 }
 
+.descritivo {
+    font-size: small;
+}
+
+.projetos {
+    line-height: 40%;
+    font-weight: bold;
+}
+
+.projetos a:hover {
+    color: rgb(109, 199, 199);
+
+}
+
 @media screen  and (min-width: 481px) and (max-width: 1200px) {
 
     .visual {
