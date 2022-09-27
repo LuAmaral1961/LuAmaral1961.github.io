@@ -46,8 +46,8 @@ header img {
 
 .about {
     width: 65%;
-    height: 600px;
-    margin-top: 20px;
+    height: 800px;
+    margin-top: 10px;
     text-align:left;
     padding-left: 40px;
     padding-top: 30px;
@@ -151,14 +151,34 @@ input.nao_valido, textarea.nao_valido {
 }
 
 .projetos {
-    line-height: 40%;
-    font-weight: bold;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 10px;
+    height: 200px;
 }
 
 .projetos a:hover {
     color: rgb(109, 199, 199);
 
 }
+ .projetos a {
+    font-size: 18px;
+ }
+
+.projetos.desc {
+    
+    padding-right: 50px;
+    height: 200px;
+}
+
+.projetos.captura {
+    padding-right: 10px;
+    padding-bottom: 50px;
+    
+}
+
 
 @media screen  and (min-width: 481px) and (max-width: 1200px) {
 
